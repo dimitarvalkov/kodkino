@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  	<meta charset="UTF-8">
+  	<title>Меню</title>
+  	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+  	<link rel="stylesheet" href="css/bootstrap.min.css">
+  	<link rel="stylesheet" href="css/main.css">
+	<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,600,600italic,700,700italic&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
+</head>
+<body>
+	<div class="menu-section">
+		<nav class="navbar navbar-default">
+		  	<div class="container-fluid">
+				<!-- Brand and toggle get grouped for better mobile display -->
+				<div class="navbar-header">
+				  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				  </button>
+				  <a class="navbar-brand" href="#"><img src="img/logo-menu.png" alt=""></a>
+				</div>
+
+				<!-- Collect the nav links, forms, and other content for toggling -->
+				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+				  	<ul class="nav navbar-nav">
+						<li><a href="#">Код кино</a></li>
+						<li><a href="#">Моят профил <span>22</span></a></li>
+						<li><a href="#">Твоите значки</a></li>
+						<li><a href="#">Правила</a></li>
+						<li><a href="#">Карта</a></li>
+						<li><a href="#">Партньори</a></li>
+						<li><a href="#">Регистрация</a></li>
+				  	</ul>
+				</div><!-- /.navbar-collapse -->
+		  	</div><!-- /.container-fluid -->
+		</nav>
+		<div class="container">
+			<div class="border-box clearfix">
+				<div class="profile-info">
+					<div class="prof-img">
+						<a href="#"><img src="img/profile-img.png" alt=""></a>
+					</div>
+					<h1>Доротея Ангелова</h1>
+				</div> <!-- end profile-info -->
+				<div class="your-progress">
+					<div id="cont" data-pct="22">
+						<svg id="svg" width="220" height="220" viewPort="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg">
+						  	<circle r="90" cx="100" cy="100" fill="transparent" stroke-dasharray="565.48" stroke-dashoffset="0"></circle>
+						  	<circle id="bar" r="90" cx="100" cy="100" fill="transparent" stroke-dasharray="565.48" stroke-dashoffset="0"></circle>
+						</svg>
+					</div>
+					<input id="percent" name="percent" value="22" type="hidden">
+					<h1>Открити сцени</h1>
+				</div><!-- end your-progress -->
+			</div><!-- border-box -->
+			<div class="row">
+				<div class="col-xs-12">
+					<div class="your-badges clearfix">
+						<a href="#">Твоите значки <i class="arrow-right"></i></a>
+						<a href="#">изгледани сцени<span>22<em>/</em>100</span></a>
+					</div>
+					<ul class="clearfix">
+						<li><a href="#"><i class="circle"></i>маргарит и маргарита (1988)</a><span>+1</span></li>
+						<li><a href="#"><i class="circle"></i>баш майсторът (1970)</a><span>+1</span></li>
+						<li><a href="#"><i class="circle"></i>баш майсторът (1970)</a><span>+1</span></li>
+						<li><a href="#"><i class="circle"></i>баш майсторът (1970)</a><span>+1</span></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div><!-- end menu-section -->
+
+<script src="http://code.jquery.com/jquery-1.11.2.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
